@@ -71,3 +71,106 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-04 12:48, in .
+
+**Me:** “How can I check in Python whether a file already exists before I open it?”
+
+**Tutor:**
+
+Checking if a file exists is done with the `os.path.exists` function.
+
+```python
+import os
+
+def file_exists(path: str) -> bool:
+    # TODO: return True if the file at `path` exists, False otherwise
+    pass
+```
+
+What argument does `os.path.exists` expect?
+
+---
+## 2026-11-04 12:49, in .
+
+**Me:** done
+
+**Tutor:**
+
+Checking file existence is done with `os.path.exists`.
+
+```python
+import os
+
+def file_exists(path: str) -> bool:
+    return os.path.exists(path)
+```
+
+What does this function return when the file does not exist?
+
+---
+## 2026-11-04 12:49, in .
+
+**Me:** python 7.0_standard_io_file_output.py
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-04 12:50, in .
+
+**Me:** How can I check in Python whether a file already exists before I open it?
+
+**Tutor:**
+
+Checking file existence is done with `os.path.exists`.
+
+```python
+import os
+
+def file_exists(path: str) -> bool:
+    # TODO: return True if the file at `path` exists, False otherwise
+    pass
+```
+
+What argument does `os.path.exists` expect?
+
+---
+## 2026-11-04 12:50, in .
+
+**Me:** the file name as a string, like os.path.exists("study_log.csv")
+
+**Tutor:**
+
+Checking file existence is done with `os.path.exists`.
+
+```python
+import os
+
+def file_exists(path: str) -> bool:
+    # TODO: return True if the file at `path` exists, False otherwise
+    return os.path.exists(path)
+```
+
+Which module must you import to use `os.path.exists`?
+
+---
+## 2026-11-04 12:51, in .
+
+**Me:** the os module, import os
+
+**Tutor:**
+
+Checking file existence is done with `os.path.exists`.
+
+```python
+import os
+
+def file_exists(path: str) -> bool:
+    # TODO: return True if the file at `path` exists, False otherwise
+    return os.path.exists(path)
+```
+
+What does this function return when the file does not exist?
